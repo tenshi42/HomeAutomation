@@ -1,0 +1,61 @@
+{
+    "FAUXMO": {
+        "ip_address": "auto"
+    },
+    "PLUGINS": {
+        "SimpleHTTPPlugin": {
+            "DEVICES": [
+                {
+                    "port": 12340,
+                    "on_cmd": "http://192.168.0.27:8042/ChristmasTree/Power/1",
+                    "off_cmd": "http://192.168.0.27:8042/ChristmasTree/Power/0",
+                    "method": "GET",
+                    "name": "sapin de noel",
+                    "state_cmd": "http://192.168.0.27:8042/ChristmasTree/State",
+                    "state_response_on": "1",
+                    "state_response_off": "0"
+                },
+                {
+                    "port": 12341,
+                    "on_cmd": "http://192.168.0.27:8042/Projector/Power/1",
+                    "off_cmd": "http://192.168.0.27:8042/Projector/Power/0",
+                    "method": "GET",
+                    "name": "projecteur",
+                    "state_cmd": "http://192.168.0.27:8042/Projector/State",
+                    "state_response_on": "1",
+                    "state_response_off": "0"
+                },
+                {
+                    "port": 12342,
+                    "on_cmd": "http://192.168.0.27:8042/AudioSwitch/SetChannels/11",
+                    "off_cmd": "http://192.168.0.27:8042/AudioSwitch/SetChannels/22",
+                    "method": "GET",
+                    "name": "son projecteur",
+                    "state_cmd": "http://192.168.0.27:8042/AudioSwitch/ProjectorState",
+                    "state_response_on": "1",
+                    "state_response_off": "0"
+                },
+                {
+                    "port": 12343,
+                    "on_cmd": "http://192.168.0.27:8042/AudioSwitch/SetChannels/22",
+                    "off_cmd": "http://192.168.0.27:8042/AudioSwitch/SetChannels/11",
+                    "method": "GET",
+                    "name": "son d'alexa",
+                    "state_cmd": "http://192.168.0.27:8042/AudioSwitch/AlexaState",
+                    "state_response_on": "1",
+                    "state_response_off": "0"
+                },
+				{
+                    "port": 12344,
+                    "on_cmd": "http://192.168.0.27:8042/AudioSwitch/SwitchBluetoothState",
+                    "off_cmd": "http://192.168.0.27:8042/AudioSwitch/SwitchBluetoothState",
+                    "method": "GET",
+                    "name": "son bluetooth",
+                    "state_cmd": "http://192.168.0.27:8042/AudioSwitch/BluetoothState",
+                    "state_response_on": "1",
+                    "state_response_off": "0"
+                }
+            ]
+        }
+    }
+}

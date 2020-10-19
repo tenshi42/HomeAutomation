@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <td id="d" class="myLink" colspan="15" (click)="Power(true)">Power On</td>
+    <td id="b" class="myLink" colspan="15" (click)="Power(false)">Power Off</td>
+  </tr>
+  <tr><td class="speeds myLink" colspan="6" *ngFor="let s of speeds; let odd = odd; let even = even"
+          [ngClass]="{ 'a': odd, 'c': even }" (click)="SetSpeed(s)">
+    Speed {{s}}
+  </td></tr>
+  <tr><td class="patterns myLink" colspan="5" *ngFor="let p of patterns; let odd = odd; let even = even"
+          [ngClass]="{ 'c': odd, 'a': even }" (click)="SetPattern(p)">
+    Pattern {{p}}
+  </td></tr>
+</table>
+
+<app-home-button></app-home-button>

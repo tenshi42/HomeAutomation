@@ -1,0 +1,69 @@
+table{
+  border-collapse: collapse;
+  width: 100%;
+  height: 100vh;
+  table-layout: fixed;
+}
+
+tr{
+  height: 20%;
+}
+
+td{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  text-wrap: normal;
+  vertical-align: middle;
+}
+
+.myLink{
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+#a, .a{
+  background-color: cadetblue;
+}
+
+#a:hover, .a:hover{
+  background-color: #5eb2b4;
+}
+
+#b{
+  background-color: #d76d4a;
+}
+
+#b:hover{
+  background-color: #eb784f;
+}
+
+#c, .c{
+  background-color: darkslategray;
+}
+
+#c:hover, .c:hover{
+  background-color: #3d6363;
+}
+
+#d{
+  background-color: #00d7d7;
+}
+
+#d:hover{
+  background-color: #00ebeb;
+}
+
+#e{
+  background-color: green;
+}
+
+#e:hover{
+  background-color: #009400;
+}
+

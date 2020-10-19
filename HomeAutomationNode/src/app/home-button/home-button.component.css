@@ -1,0 +1,25 @@
+#previousPage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 65px;
+  color: white;
+  background-color: darkslategrey;
+  cursor: pointer;
+}
+
+#previousPage div{
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  -ms-transform: translateY(-60%);
+  transform: translateY(-60%);
+  font-size: 25px;
+}
+
+#previousPage:hover{
+  background-color: #3b6363;
+}
