@@ -83,13 +83,13 @@ I also recently add another relay to turn On/Off a Bluetooth receiver connected 
 # Demos
 
 <img src="Videos/ChristmasTree.gif"  width="400">  
-Controlling the Christmas Garland over the Web Interface.
+Controlling the Christmas Garland over the Web Interface.  
 
 <img src="Images/WebPanelProjector.jpg"  width="600">  
-Projector page of the Web Interface.
+Projector page of the Web Interface.  
 
 <img src="Images/WebPanelChristmasTree.jpg"  width="600">  
-Chrismas Garland page of the Web Interface.
+Chrismas Garland page of the Web Interface.  
 
 <img src="Images/WebPanelAudioSwitch.jpg"  width="600">  
-Audio switch page of the Web Interface.
+Audio switch page of the Web Interface.  
